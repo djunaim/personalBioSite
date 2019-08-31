@@ -1,3 +1,10 @@
 body {
-    background-color: honeydew;
+    background-color: #616161;
+    color: #F5F5F5;
+}
+
+.projectCard {
+    background-color: #FFC107;
+    margin: 10px 10px;
+    width: 300px;
 }
