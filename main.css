@@ -3,8 +3,14 @@ body {
     color: #F5F5F5;
 }
 
-.projectCard {
+.projectCard,
+footer {
     background-color: #FFC107;
+    border: 5px solid #BDBDBD; 
     margin: 10px 10px;
     width: 300px;
+}
+
+a {
+    display: block;
 }
