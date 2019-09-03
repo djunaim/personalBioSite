@@ -1,11 +1,12 @@
 body {
-    background-color: #616161;
-    color: #F5F5F5;
+    background-color: whitesmoke;
+    color: #616161;
+    font-family: 'Manjari', sans-serif;
 }
 
 .projectCard,
 footer {
-    background-color: #FFC107;
+    background-color: rgb(156, 155, 153);
     border: 5px solid #BDBDBD; 
     margin: 10px 10px;
     width: 300px;
