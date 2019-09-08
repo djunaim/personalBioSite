@@ -36,10 +36,15 @@ const createProjectCards = (stuff) => {
 
 createProjectCards(projects);
 
+const hidden = () => {
+    document.getElementById('bioPage').style.visibility = 'hidden';
+    document.getElementById('technologiesPage').style.visibility = 'hidden';
+    document.getElementById('projectsPage').style.visibility = 'hidden';
+}
 
-document.getElementById('bioPage').style.visibility = 'hidden';
-document.getElementById('technologiesPage').style.visibility = 'hidden';
-document.getElementById('projectsPage').style.visibility = 'hidden';
+hidden();
+
+const a = document.querySelector('a');
 
 const navClick = (e) => {
     const buttonID = e.target.id
@@ -61,4 +66,4 @@ const navClick = (e) => {
 document.getElementById('navToBio').addEventListener('click', navClick);
 document.getElementById('navToTechnologies').addEventListener('click', navClick);
 document.getElementById('navToProjects').addEventListener('click', navClick);
-document.querySelector('a').addEventListener('click', navClick);
+a.addEventListener('click', navClick);

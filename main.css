@@ -12,6 +12,8 @@ footer {
     width: 300px;
 }
 
-a {
+a:hover {
+    color: blue;
     display: block;
+    text-decoration: underline;
 }
