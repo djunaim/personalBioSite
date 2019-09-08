@@ -1,5 +1,3 @@
-console.log('personal bio site');
-
 const PrintToDOM = (toPrint, divID) => {
     document.getElementById(divID).innerHTML = toPrint;
 }
@@ -37,3 +35,30 @@ const createProjectCards = (stuff) => {
 }
 
 createProjectCards(projects);
+
+
+document.getElementById('bioPage').style.visibility = 'hidden';
+document.getElementById('technologiesPage').style.visibility = 'hidden';
+document.getElementById('projectsPage').style.visibility = 'hidden';
+
+const navClick = (e) => {
+    const buttonID = e.target.id
+    if ( buttonID === 'navToBio') {
+        document.getElementById('bioPage').style.visibility = 'visible';
+        document.getElementById('technologiesPage').style.visibility = 'hidden';
+        document.getElementById('projectsPage').style.visibility = 'hidden';
+    } else if (buttonID === 'navToTechnologies') {
+        document.getElementById('bioPage').style.visibility = 'hidden';
+        document.getElementById('technologiesPage').style.visibility = 'visible';
+        document.getElementById('projectsPage').style.visibility = 'hidden';
+    } else if (buttonID === 'navToProjects') {
+        document.getElementById('bioPage').style.visibility = 'hidden';
+        document.getElementById('technologiesPage').style.visibility = 'hidden';
+        document.getElementById('projectsPage').style.visibility = 'visible';
+    }
+}
+
+document.getElementById('navToBio').addEventListener('click', navClick);
+document.getElementById('navToTechnologies').addEventListener('click', navClick);
+document.getElementById('navToProjects').addEventListener('click', navClick);
+document.querySelector('a').addEventListener('click', navClick);
