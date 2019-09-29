@@ -4,7 +4,13 @@
 My personal bio site where you can learn more about me as a developer and what projects I have been working on.
 
 ## Screenshots
+![personal site homepage](https://raw.githubusercontent.com/djunaim/personalBioSite/master/screenshots/image.PNG)
 
+![bio section](https://raw.githubusercontent.com/djunaim/personalBioSite/master/screenshots/image2.PNG)
+
+![tech section](https://raw.githubusercontent.com/djunaim/personalBioSite/master/screenshots/image3.PNG)
+
+![projects section](https://raw.githubusercontent.com/djunaim/personalBioSite/master/screenshots/image4.PNG)
 
 ## How to run
 * Clone down this project
