@@ -1,0 +1,30 @@
+{
+  "project1": {
+   "name": "Tamagotchi",
+    "url": "https://tamagotchi-abec4.firebaseapp.com/",
+    "description": "play with your online pet!",
+    "technologiesUsed": "HTML, CSS, Javascript, jQuery, Bootstrap",
+    "gitHubUrl": "https://github.com/djunaim/tamagotchi"
+  },
+  "project2": {
+    "name": "Solar System",
+     "url": "https://solar-system-533e8.firebaseapp.com/",
+     "description": "get to know more about the planets in the solar system",
+     "technologiesUsed": "HTML, CSS, Javascript, jQuery, Bootstrap",
+     "gitHubUrl": "https://github.com/djunaim/solar-system"
+   },
+   "project3": {
+    "name": "Pardon Us",
+    "url": "https://pardon-us.firebaseapp.com/",
+    "description": "get to know more about your favorite band and get all their merch and stuff!",
+    "technologiesUsed": "HTML, CSS, Javascript, Bootstrap",
+    "gitHubUrl": "https://github.com/nss-evening-cohort-10/foundations-group-project-pardon-us"
+  },
+  "project4": {
+    "name": "Jurassic Park",
+    "url": "https://jurassic-world-a9907.firebaseapp.com/",
+    "description": "beware of science because it might just come back to bite you",
+    "technologiesUsed": "HTML, CSS, Javascript, jQuery, Bootstrap, CRON",
+    "gitHubUrl": "https://github.com/nss-evening-cohort-10/nutshell-jurassic-world"
+  }
+}
