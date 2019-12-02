@@ -2,12 +2,12 @@ import utilities from '../../helpers/utilities';
 import projectsData from '../../helpers/data/projectsData';
 
 const createProjectCards = () => {
-  let domString = '';
+  let domString = '<div>';
   projectsData.getProjects()
     .then((projects) => {
       projects.forEach((project) => {
         domString += `
-        <div class='projectCard col-md-2 border-dark mb-3'>
+        <div class="card-body col-md-4 projectCard border-dark mb-3">
             <h3>${project.name}</h3>
             <a href="${project.url}">Look at this</a>
             <p>${project.description}</p>
@@ -16,8 +16,9 @@ const createProjectCards = () => {
             <a href="${project.gitHubUrl}">Check out my Git Hub</a>
         </div>
         `;
-        utilities.printToDOM(domString, 'projectsPage');
       });
+      domString += '</div>';
+      utilities.printToDOM(domString, 'projectsPage');
     })
     .catch((error) => console.error(error));
 };
