@@ -7,7 +7,7 @@ const createProjectCards = () => {
     .then((projects) => {
       projects.forEach((project) => {
         domString += `
-        <div class='projectCard col-md-2'>
+        <div class='projectCard col-md-2 border-dark mb-3'>
             <h3>${project.name}</h3>
             <a href="${project.url}">Look at this</a>
             <p>${project.description}</p>
