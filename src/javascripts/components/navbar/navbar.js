@@ -4,8 +4,6 @@ const hidden = () => {
   document.getElementById('projectsPage').style.display = 'none';
 };
 
-hidden();
-
 const navClick = (e) => {
   const buttonID = e.target.id;
   if (buttonID === 'navToHome') {
@@ -31,6 +29,11 @@ const navClick = (e) => {
   }
 };
 
-document.getElementById('navToBio').addEventListener('click', navClick);
-document.getElementById('navToTechnologies').addEventListener('click', navClick);
-document.getElementById('navToProjects').addEventListener('click', navClick);
+const clickEvents = () => {
+  document.getElementById('navToHome').addEventListener('click', navClick);
+  document.getElementById('navToBio').addEventListener('click', navClick);
+  document.getElementById('navToTechnologies').addEventListener('click', navClick);
+  document.getElementById('navToProjects').addEventListener('click', navClick);
+};
+
+export default { hidden, clickEvents };
