@@ -18,6 +18,33 @@ footer {
     justify-content: flex-end;
 }
 
-.hide {
-    display: none;
+#homePage,
+#bioPage,
+#technologiesPage,
+#projectsPage {
+    padding-top: 55px;
+    height: 100vh;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#bioPage,
+#projectsPage {
+    background-color: white;
+}
+
+#bioPageTitle,
+#technologiesPageTitle {
+    text-align: center;
+}
+
+.profileImage {
+    text-align: right;
+}
+
+#technologiesUsed ul span img {
+    padding-top: 25px;
+    max-width: 10%;
 }
