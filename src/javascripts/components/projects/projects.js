@@ -2,7 +2,8 @@ import utilities from '../../helpers/utilities';
 import projectsData from '../../helpers/data/projectsData';
 
 const createProjectCards = () => {
-  let domString = '<div>';
+  let domString = '<div class="container">';
+  domString = '<div class="row">';
   projectsData.getProjects()
     .then((projects) => {
       projects.forEach((project) => {
@@ -17,7 +18,7 @@ const createProjectCards = () => {
         </div>
         `;
       });
-      domString += '</div>';
+      domString += '</div></div>';
       utilities.printToDOM(domString, 'projectsPage');
     })
     .catch((error) => console.error(error));

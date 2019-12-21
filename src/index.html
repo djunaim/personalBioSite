@@ -9,7 +9,7 @@
 
 <body>
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">Monica Djunaidi</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -17,16 +17,19 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" id="navToHome">Home</a>
+          <a class="nav-link" href="#homePage">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" id="navToBio">Bio</a>
+          <a class="nav-link" href="#bioPage">About Me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link"id="navToTechnologies">Technologies</a>
+          <a class="nav-link" href="#technologiesPage">Technologies</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" id="navToProjects">Projects</a>
+          <a class="nav-link" href="#projectsPage">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contactsPage">Contacts</a>
         </li>
       </ul>
     </div>
@@ -34,30 +37,46 @@
   <!-- End Navigation -->
 
   <!-- Primary View -->
-  <div class="fullPage container-fluid" id="homePage"></div>
-  <div class="fullPage hide container-fluid" id="bioPage"> 
+  <div class="fullPage" id="homePage"></div>
+  <div class="fullPage" id="bioPage"> 
     <!-- TODO: Fill in bio info here: What is your background? Why do you want to go into development? What do you love about development? -->
-    <p>Background: After getting my B.A. in Biochemistry and Molecular Biology, I wanted to travel and see the world for what it is in its whole form, and not just a molecule. After a fun year and a half in Korea, I worked at Vanderbilt as a program coordinator for clinical research within the Cardiac Surgery Department. From there, I have been in clinical research ever since, whether that was in the hospital or the CRO level, and now, working at a health tech startup that is changing the way clinical trials are run.</p>
-    <p>Why development: As a Clinical Information Designer, I was indirectly introduced to HTML and some responsibilities of being a programmer. For example, performing acceptance testing during the project development period, functional testing projects to confirm search results are working correctly, and designing content in the application with the end user in mind. Being able to create a product from start to finish and seeing the end result sparked my interest in becoming a developer. Currently, I am enrolled in the Part-time, Full-Stack Web Development Program to further develop my career in web development and become a Software Engineer. Merging my 2 experiences of clinical trias and now tech, I want to bridge the gap between technology and clinical research.</p>
-    <p>Fun thing about development: Instant gratification. Being able to see what you've done to *hopefully* display on the page is really nice when everything goes according to plan.</p>
+    <h3 id="bioPageTitle">About Me</h3>
+    <div class="row">
+      <div class="profileImage col-md-4">
+        <img src="https://raw.githubusercontent.com/djunaim/personalBioSite/master/src/profilePic/Industrious%20__135_07-18_2.jpg" style="width: 25rem;"/>
+      </div>
+      <div class="aboutMe col-md-8">
+        <p>Background: After getting my B.A. in Biochemistry and Molecular Biology, I wanted to travel and see the world for what it is in its whole form, and not just a molecule. After a fun year and a half in Korea, I worked at Vanderbilt as a program coordinator for clinical research within the Cardiac Surgery Department. From there, I have been in clinical research ever since, whether that was in the hospital or the CRO level, and now, working at a health tech startup that is changing the way clinical trials are run.</p>
+        <p>Why development: As a Clinical Information Designer, I was indirectly introduced to HTML and some responsibilities of being a programmer. For example, performing acceptance testing during the project development period, functional testing projects to confirm search results are working correctly, and designing content in the application with the end user in mind. Being able to create a product from start to finish and seeing the end result sparked my interest in becoming a developer. Currently, I am enrolled in the Part-time, Full-Stack Web Development Program to further develop my career in web development and become a Software Engineer. Merging my 2 experiences of clinical trias and now tech, I want to bridge the gap between technology and clinical research.</p>
+        <p>Fun thing about development: Instant gratification. Being able to see what you've done to *hopefully* display on the page is really nice when everything goes according to plan.</p>
+      </div>
+    </div>
   </div>
-  <div class="fullPage hide container-fluid" id="technologiesPage">
+  <div class="fullPage" id="technologiesPage">
     <!-- TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later). -->
-    <h4>Languages Learned</h4>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>JQuery</li>
-    </ul>
+    <h3 id="technologiesPageTitle">Languages Learned</h3>
+    <div id="technologiesUsed">
+      <ul>
+        <span><img src="https://raw.githubusercontent.com/djunaim/personalBioSite/master/src/techLogos/html.png" alt="html logo"/></span>
+        <span><img src="https://raw.githubusercontent.com/djunaim/personalBioSite/master/src/techLogos/css.png" alt="css logo"/>></span>
+        <span><img src="https://raw.githubusercontent.com/djunaim/personalBioSite/master/src/techLogos/js.png" alt="javascript logo"/></span>
+        <span><img src="https://raw.githubusercontent.com/djunaim/personalBioSite/master/src/techLogos/jquery.png" alt="jquery logo"></span>
+        <span><img src="https://raw.githubusercontent.com/djunaim/personalBioSite/master/src/techLogos/sass.png" alt="sass logo"></span>
+        <span><img src="https://raw.githubusercontent.com/djunaim/personalBioSite/master/src/techLogos/react.png" alt="react logo"/></span>
+        <span><img src="https://raw.githubusercontent.com/djunaim/personalBioSite/master/src/techLogos/github.png" alt="github logo"></span>
+        <span><img src="https://raw.githubusercontent.com/djunaim/personalBioSite/master/src/techLogos/git.png" alt="git logo"></span>
+        <span><img src="https://raw.githubusercontent.com/djunaim/personalBioSite/master/src/techLogos/bootstrap.png" alt="bootstrap logo"/></span>
+        <span><img src="https://raw.githubusercontent.com/djunaim/personalBioSite/master/src/techLogos/vsCode.png" alt="vs code logo"></span>
+      </ul>
+    </div>
   </div>
   
-  <div class="fullPage hide container-fluid" id="projectsPage"></div>
+  <div class="fullPage" id="projectsPage"></div>
 
   <!-- End Primary View -->
 
   <!-- Footer -->
-  <footer class="page-footer">
+  <footer class="page-footer" id="contactsPage">
     <!-- TODO: Fill in contact info here: Include things like email, LinkedIn, Twitter and GitHub links. -->
     <h3>Contact Information</h3>
     <a href="mailto:modjun12@gmail.com">Email me!</a>
@@ -65,6 +84,5 @@
     <a href="http://https://github.com/djunaim">Here's my Git Hub</a>
   </footer>
   <!-- End Footer -->
-  <script src="./main.js"></script>
 </body>
 </html>
