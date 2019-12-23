@@ -1,5 +1,6 @@
 import utilities from '../../helpers/utilities';
 import projectsData from '../../helpers/data/projectsData';
+import './projects.scss';
 
 const createProjectCards = () => {
   let domString = '<div class="container" id="projectContainer">';
@@ -8,13 +9,13 @@ const createProjectCards = () => {
     .then((projects) => {
       projects.forEach((project) => {
         domString += `
-        <div class="card-body col-md-4 projectCard border-dark mb-3">
+        <div class="card-body col-md-4 projectCard">
             <h3>${project.name}</h3>
-            <img id="projectImage" src=${project.img}/>
-            <div id="overlay">
-              <a href="${project.url}">Click here!</a>
-              <a href="${project.gitHubUrl}">Check out my Git Hub</a>
-            </div>
+            <img class="projectImage" src="${project.img}"/>
+          <div class="overlay">
+            <a href="${project.url}"><i class="fa fa-link fa-4x"></i></a>
+            <a href="${project.gitHubUrl}"><i class="fa fa-github fa-4x"></i></a>
+          </div>
         </div>
         `;
       });
