@@ -9,7 +9,7 @@ body {
 .projectCard,
 footer {
     background-color: rgb(156, 155, 153);
-    border: 5px solid #BDBDBD; 
+    border: 2px solid #BDBDBD; 
     margin: 10px 10px;
     width: 300px;
 }
@@ -19,11 +19,13 @@ footer {
 }
 
 #homePage,
-#bioPage,
-#technologiesPage,
-#projectsPage {
+#bioPage {
     padding-top: 55px;
-    height: 100vh;
+    height: 90vh;
+}
+
+#contactsPage {
+    height: 50vh;
 }
 
 html {
@@ -31,12 +33,28 @@ html {
 }
 
 #bioPage,
-#projectsPage {
+#portfolioPage {
     background-color: white;
 }
 
-#bioPageTitle,
-#technologiesPageTitle {
+#technologiesPage {
+    padding-top: 55px;
+    height: 80vh;
+    h3,
+    p {
+    text-align: center;
+    }
+}
+
+#portfolioPage {
+    padding-top: 55px;
+    height: 90vh;
+    h3 {
+        text-align: center;
+    }
+}
+
+#bioPageTitle {
     text-align: center;
 }
 
@@ -44,7 +62,25 @@ html {
     text-align: right;
 }
 
-#technologiesUsed ul span img {
-    padding-top: 25px;
+#technologiesUsed {
+    margin-top: 150;
+    ul span img {
+    padding: 25px 10px 10px;
     max-width: 10%;
+    }
+}
+
+.introInfo {
+    position: relative;
+    text-align: center;
+    h1 {
+        font-size: 5.5rem;
+        margin-top: 265;
+    }
+    h4 {
+        margin-top: 30;
+    }
+    .introInfoButton {
+        margin-top: 50;
+    }
 }
