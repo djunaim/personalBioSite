@@ -19,11 +19,13 @@ footer {
 }
 
 #homePage,
-#bioPage,
-#technologiesPage,
-#projectsPage {
+#bioPage {
     padding-top: 55px;
     height: 90vh;
+}
+
+#contactsPage {
+    height: 50vh;
 }
 
 html {
@@ -31,12 +33,28 @@ html {
 }
 
 #bioPage,
-#projectsPage {
+#portfolioPage {
     background-color: white;
 }
 
-#bioPageTitle,
-#technologiesPageTitle {
+#technologiesPage {
+    padding-top: 55px;
+    height: 80vh;
+    h3,
+    p {
+    text-align: center;
+    }
+}
+
+#portfolioPage {
+    padding-top: 55px;
+    height: 90vh;
+    h3 {
+        text-align: center;
+    }
+}
+
+#bioPageTitle {
     text-align: center;
 }
 
@@ -44,9 +62,12 @@ html {
     text-align: right;
 }
 
-#technologiesUsed ul span img {
+#technologiesUsed {
+    margin-top: 150;
+    ul span img {
     padding: 25px 10px 10px;
     max-width: 10%;
+    }
 }
 
 .introInfo {
