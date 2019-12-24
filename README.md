@@ -12,6 +12,9 @@ My personal bio site where you can learn more about me as a developer and what p
 
 ![projects section](https://raw.githubusercontent.com/djunaim/personalBioSite/master/src/screenshots/image4.PNG)
 
+## Deployed site
+[Click HERE to go to application](https://personal-website-65796.firebaseapp.com/#)
+
 ## How to run
 * Clone down this project
 * Install [http-server](https://www.npmjs.com/package/http-server) from npm
