@@ -38,5 +38,13 @@
     "technologiesUsed": "HTML, CSS, Javascript, jQuery, Bootstrap",
     "gitHubUrl": "https://github.com/nss-evening-cohort-10/nutshell-michelin-restaurant",
     "img": "https://raw.githubusercontent.com/nss-evening-cohort-10/nutshell-michelin-restaurant/master/screenshots2/homepage.PNG"
+  },
+  "project6": {
+    "name": "Compost Mates",
+    "url": "https://compost-mates.firebaseapp.com/",
+    "description": "converting food waste into mulch",
+    "technologiesUsed": "HTML, CSS, Javascript, jQuery, Bootstrap, SCSS, React",
+    "gitHubUrl": "https://github.com/djunaim/compost-mates",
+    "img": "https://raw.githubusercontent.com/djunaim/compost-mates/master/src/screenshots/auth.PNG"
   }
 }
