@@ -43,8 +43,16 @@
     "name": "Compost Mates",
     "url": "https://compost-mates.firebaseapp.com/",
     "description": "converting food waste into mulch",
-    "technologiesUsed": "HTML, CSS, Javascript, jQuery, Bootstrap, SCSS, React",
+    "technologiesUsed": "HTML, CSS, Javascript, Bootstrap, SCSS, React",
     "gitHubUrl": "https://github.com/djunaim/compost-mates",
     "img": "https://raw.githubusercontent.com/djunaim/compost-mates/master/src/screenshots/auth.PNG"
+  },
+  "project7": {
+    "name": "Taste Buds",
+    "url": "https://github.com/djunaim/TasteBuds",
+    "description": "go on a tasty adventure",
+    "technologiesUsed": "HTML, CSS, Javascript, React Bootstrap, SCSS, React, C#, SQL",
+    "gitHubUrl": "https://github.com/djunaim/TasteBuds",
+    "img": "https://raw.githubusercontent.com/djunaim/TasteBuds/master/assets/homepage.PNG"
   }
 }
